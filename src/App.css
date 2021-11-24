@@ -19,12 +19,13 @@
     text-align: center;
   }
 
-  .header a img {
+  .header img {
     width: 40%;
+    cursor: pointer;
   }
 
   .sidebar img {
-    width: 80%;
+    width: 70%;
   }
 
    button {
@@ -87,6 +88,7 @@
 .header {
   background: #fff;
   display: grid;
+  justify-items: center;
   align-items: center;
   text-align: center;
   height: 100px;
@@ -94,6 +96,7 @@
 
 .header img {
   width: 11rem;
+  cursor: pointer;
 }
 
 .sidebar {

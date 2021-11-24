@@ -10,13 +10,15 @@ export default function App() {
       <div className="container">
         <main className="main">
           <div className="header">
-            <a href="https://itude.com.br">
-              <img src={LogoImg} alt="" />
-            </a>
+            <img
+              src={LogoImg}
+              alt="itude logo"
+              onClick={() => window.open('https://itude.com.br', '_blank')}
+            />
           </div>
           <div className="section">
             <div className="sidebar">
-              <img src={Garden} alt="" />
+              <img src={Garden} alt="garden background" />
               <div className="line"></div>
               <h1>POUCAS UNIDADES!</h1>
               <button
@@ -29,12 +31,12 @@ export default function App() {
               >
                 SAIBA MAIS
               </button>
-              <img src={Solutions} alt="" />
+              <img src={Solutions} alt="soluções imobiliárias logo" />
             </div>
             <div className="background">
               <div>
                 <h1>NÃO FIQUE DE FORA DESSA OPORTUNIDADE!</h1>
-                <img src={FamilyImg} alt="" />
+                <img src={FamilyImg} alt="family" />
                 <h1>NÃO FIQUE DE FORA DESSA OPORTUNIDADE!</h1>
               </div>
             </div>
