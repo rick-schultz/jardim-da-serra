@@ -1,4 +1,4 @@
-@media screen and (max-width:818px){
+@media screen and (max-width:900px){
   .section {
     background: url("./assets/background.png") rgba(0, 0, 0, 0.411);
     background-size: cover;
@@ -63,7 +63,7 @@
 }
 
 
-@media screen and (min-width:818px){
+@media screen and (min-width:900px){
 
   .background div h1:first-child, .section button:last-child {
     display: none;
