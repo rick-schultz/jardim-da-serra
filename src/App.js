@@ -19,7 +19,16 @@ export default function App() {
               <img src={Garden} alt="" />
               <div className="line"></div>
               <h1>POUCAS UNIDADES!</h1>
-              <button>SAIBA MAIS</button>
+              <button
+                onClick={() =>
+                  window.open(
+                    'https://api.whatsapp.com/send?phone=5535999073990',
+                    '_blank'
+                  )
+                }
+              >
+                SAIBA MAIS
+              </button>
               <img src={Solutions} alt="" />
             </div>
             <div className="background">
@@ -29,7 +38,16 @@ export default function App() {
                 <h1>NÃO FIQUE DE FORA DESSA OPORTUNIDADE!</h1>
               </div>
             </div>
-            <button>SAIBA MAIS</button>
+            <button
+              onClick={() =>
+                window.open(
+                  'https://api.whatsapp.com/send?phone=5535999073990',
+                  '_blank'
+                )
+              }
+            >
+              SAIBA MAIS
+            </button>
           </div>
         </main>
       </div>
