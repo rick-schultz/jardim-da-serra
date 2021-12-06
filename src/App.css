@@ -76,7 +76,7 @@
 }
 
 .background {
-  background: url("./assets/background.png") rgba(0, 0, 0, 0.411);
+  background: url("./assets/background.png") rgba(0, 0, 0, 0.220);
   background-size: cover;
   background-blend-mode: multiply;
   background-repeat: no-repeat;
